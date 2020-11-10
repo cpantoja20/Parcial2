@@ -12,6 +12,7 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { EmpresaConsultaComponent } from './creditos/empresa-consulta/empresa-consulta.component';
 import { EmpresaRegistroComponent } from './creditos/empresa-registro/empresa-registro.component';
 import { AppRoutingModule } from './app-routing.module';
+import { EmpresasService } from './services/empresas.service';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,7 @@ import { AppRoutingModule } from './app-routing.module';
     ]),
     AppRoutingModule
   ],
-  providers: [],
+  providers: [EmpresasService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

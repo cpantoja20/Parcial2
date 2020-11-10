@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { EmpresasService } from 'src/app/services/empresas.service';
+import { Empresas } from '../models/empresas';
 
 @Component({
   selector: 'app-empresa-registro',
@@ -7,9 +9,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EmpresaRegistroComponent implements OnInit {
 
-  constructor() { }
+  empresas: Empresas;
+  constructor(private empresasService: EmpresasService) { }
 
-  ngOnInit(): void {
+
+
+  ngOnInit() {
+    this.empresas = new Empresas();
   }
 
+  add() {
+    this.empresasService.post(this.empresas).subscribe(p => {
+      if (p != null) {
+        alert('Empresa creada!');
+        this.empresas = p;
+      }
+    });
+  }
 }
