@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "RwVvAzl0OWGw3J6yOkqGtzR8uFAKwti83llGZZec1pzWiwIEYbmb7aC/tkgBeQZrpQBTaMb+XmY4YvmAepkNCA==",
+  "success": true,
+  "projectFilePath": "D:\\Desktop\\parcial_2_web\\Datos\\Datos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sindy\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\sindy\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

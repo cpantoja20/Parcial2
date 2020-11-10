@@ -13,6 +13,7 @@ import { EmpresaConsultaComponent } from './creditos/empresa-consulta/empresa-co
 import { EmpresaRegistroComponent } from './creditos/empresa-registro/empresa-registro.component';
 import { AppRoutingModule } from './app-routing.module';
 import { EmpresasService } from './services/empresas.service';
+import { FiltroEmpresaPipe } from './pipe/filtro-empresa.pipe';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { EmpresasService } from './services/empresas.service';
     CounterComponent,
     FetchDataComponent,
     EmpresaConsultaComponent,
-    EmpresaRegistroComponent
+    EmpresaRegistroComponent,
+    FiltroEmpresaPipe
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
