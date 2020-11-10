@@ -1,1 +1,30 @@
-<p>empresa-consulta works!</p>
+<div class="row">
+    <div class="col-6">
+        <input [(ngModel)]="searchText" type="text" class="formcontrol" placeholder="Type to filter">
+    </div>
+</div>
+<hr>
+<table class="table table-striped" *ngIf='empresas && empresas.length'>
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Id Empresa</th>
+            <th scope="col">Nombre Empresa </th>
+            <th scope="col">Cantidad Empleados</th>
+            <th scope="col">Valor Activos</th>
+            <th scope="col">Tipos Empresa</th>
+            <th scope="col">Tipo Credito Empresa</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let empresa of empresas; index as i ">
+            <th scope="row">{{ i + 1 }}</th>
+            <td>{{ empresa.idEmpresa }} </td>
+            <td>{{ empresa.nEmpresa }}</td>
+            <td>{{ empresa.cEmpleados }}</td>
+            <td>{{ empresa.vrActivos }}</td>
+            <td>{{ empresa.tipoEmpresa }}</td>
+            <td>{{ empresa.creditoEmpresa }}</td>
+        </tr>
+    </tbody>
+</table>
