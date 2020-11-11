@@ -2,35 +2,41 @@
     <div class="row">
         <div class="col-md-6 offset-md-3">
             <h2>Registro de Empresas</h2>
+            <form [formGroup]="formGroup"></form>
             <form>
                 <div class="form-group">
                     <label>Id Empresa</label>
-                    <input type="text" name="idEmpresa" [(ngModel)]="empresas.idEmpresa" class="form-control" />
+                    <input type="text" name="idEmpresa" formControlName="idEmpresa" class="form-control"
+                        [ngClass]="{ 'is-invalid':  control.idEmpresa.errors}" />
+                    <div *ngIf="control.idEmpresa.errors" class="invalid-feedback">
+                        <div *ngIf="control.idEmpresa.errors.required">Campo Requerido</div>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label>Nombre Empresa</label>
-                    <input type="text" name="nEmpresa" [(ngModel)]="empresas.nEmpresa" class="form-control" />
-                </div>
-                <div class="form-group">
-                    <label>Cantidad Empleados</label>
-                    <input type="number" name="cEmpleados" [(ngModel)]="empresas.cEmpleados" class="form-control" />
-                </div>
-                <div class="form-group">
-                    <label>Valor Activos</label>
-                    <input type="number" name="vrActivos" [(ngModel)]="empresas.vrActivos" class="form-control" />
-                </div>
-                <div class="form-group">
-                    <label>Tipo Empresa</label>
-                    <input type="text" name="tipoEmpresa" [(ngModel)]="empresas.tipoEmpresa" class="form-control" />
-                </div>
-                <div class="form-group">
-                    <label>Tipo Credito Empresa</label>
-                    <input type="text" name="creditoEmpresa" [(ngModel)]="empresas.creditoEmpresa" class="form-control" />
-                </div>
-                <div class="text-center">
-                    <button class="btn btn-primary mr-1" (click)="add()">Register</button>
-                    <button class="btn btn-secondary" type="reset">Cancel</button>
-                </div>
+                    <div class="form-group">
+                        <label>Nombre Empresa</label>
+                        <input type="text" name="nEmpresa" formControlName="nEmpresa" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Cantidad Empleados</label>
+                        <input type="number" name="cEmpleados" [(ngModel)]="empresas.cEmpleados" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Valor Activos</label>
+                        <input type="number" name="vrActivos" [(ngModel)]="empresas.vrActivos" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Tipo Empresa</label>
+                        <input type="text" name="tipoEmpresa" [(ngModel)]="empresas.tipoEmpresa" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Tipo Credito Empresa</label>
+                        <input type="text" name="creditoEmpresa" [(ngModel)]="empresas.creditoEmpresa"
+                            class="form-control" />
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-primary mr-1" (click)="add()">Register</button>
+                        <button class="btn btn-secondary" type="reset">Cancel</button>
+                    </div>
             </form>
         </div>
     </div>

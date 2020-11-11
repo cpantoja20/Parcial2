@@ -16,6 +16,7 @@ import { EmpresasService } from './services/empresas.service';
 import { FiltroEmpresaPipe } from './pipe/filtro-empresa.pipe';
 import { AlertmodalComponent } from './@base/alert-modal/alertmodal/alertmodal.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +27,7 @@ import { AlertmodalComponent } from './@base/alert-modal/alertmodal/alertmodal.c
     EmpresaConsultaComponent,
     EmpresaRegistroComponent,
     FiltroEmpresaPipe,
-    AlertmodalComponent
+    AlertmodalComponent,
   ],
   imports: [
     ReactiveFormsModule,
