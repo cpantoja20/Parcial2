@@ -12,8 +12,6 @@ export class EmpresaRegistroComponent implements OnInit {
   empresas: Empresas;
   constructor(private empresasService: EmpresasService) { }
 
-
-
   ngOnInit() {
     this.empresas = new Empresas();
   }
@@ -21,9 +19,10 @@ export class EmpresaRegistroComponent implements OnInit {
   add() {
     this.empresasService.post(this.empresas).subscribe(p => {
       if (p != null) {
-        alert('Empresa creada!');
+        alert('Guardado con exito!');
         this.empresas = p;
       }
     });
+
   }
 }
