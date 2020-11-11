@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\Parcial_2_Web\\logica\\Logica.csproj": {}
+    "D:\\Desktop\\Parcial_2_Web\\Logica\\Logica.csproj": {}
   },
   "projects": {
     "D:\\Desktop\\Parcial_2_Web\\Datos\\Datos.csproj": {
@@ -128,14 +128,14 @@
         }
       }
     },
-    "D:\\Desktop\\Parcial_2_Web\\logica\\Logica.csproj": {
+    "D:\\Desktop\\Parcial_2_Web\\Logica\\Logica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\Parcial_2_Web\\logica\\Logica.csproj",
+        "projectUniqueName": "D:\\Desktop\\Parcial_2_Web\\Logica\\Logica.csproj",
         "projectName": "Logica",
-        "projectPath": "D:\\Desktop\\Parcial_2_Web\\logica\\Logica.csproj",
+        "projectPath": "D:\\Desktop\\Parcial_2_Web\\Logica\\Logica.csproj",
         "packagesPath": "C:\\Users\\sindy\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\Parcial_2_Web\\logica\\obj\\",
+        "outputPath": "D:\\Desktop\\Parcial_2_Web\\Logica\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sindy\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vdxtLBAq9/G+0IuFxCcY8/dfd0FzCCZn3ykiGEmxe+wYBXsu7B1sBprId9PJVTH3RwhLUOh3jetq35jFkxy1cg==",
+  "dgSpecHash": "MV5bhH1rOALt5eMJ47QfY3BI+xXkwdPwOug/M5p9/O+F0rSKu2saERnuUN7PKEqfhDEWgHX9+6/nJgRukeju6A==",
   "success": true,
-  "projectFilePath": "D:\\Desktop\\Parcial_2_Web\\logica\\Logica.csproj",
+  "projectFilePath": "D:\\Desktop\\Parcial_2_Web\\Logica\\Logica.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sindy\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\sindy\\.nuget\\packages\\microsoft.data.sqlclient\\1.0.19249.1\\microsoft.data.sqlclient.1.0.19249.1.nupkg.sha512",

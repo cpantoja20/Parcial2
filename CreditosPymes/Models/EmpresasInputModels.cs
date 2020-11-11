@@ -3,7 +3,7 @@ using Entity;
 
 namespace CreditosPymes.Models
 {
-    public class EmpresasModals
+    public class EmpresasInputModals
     {
          public string IdEmpresa { get; set; }
         public string NEmpresa { get; set; }
@@ -13,13 +13,13 @@ namespace CreditosPymes.Models
         public decimal CreditoEmpresa { get; set;}
     }
 
-    public class EmpresaViewModel : EmpresaInputModel
+    public class EmpresasViewModel : EmpresasInputModel
     {
-        public EmpresaViewModel()
+        public EmpresasViewModel()
         {
 
         }
-        public EmpresaViewModel(Empresa empresa)
+        public EmpresasViewModel(Empresas empresa)
         {
             IdEmpresa = empresa.IdEmpresa;
             NEmpresa = empresa.Nombre;

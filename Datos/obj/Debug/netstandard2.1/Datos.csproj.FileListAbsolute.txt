@@ -1,0 +1,12 @@
+D:\Desktop\Parcial_2_Web\Datos\bin\Debug\netstandard2.1\Datos.deps.json
+D:\Desktop\Parcial_2_Web\datos\bin\Debug\netstandard2.1\Datos.dll
+D:\Desktop\Parcial_2_Web\datos\bin\Debug\netstandard2.1\Datos.pdb
+D:\Desktop\Parcial_2_Web\datos\bin\Debug\netstandard2.1\Entity.dll
+D:\Desktop\Parcial_2_Web\datos\bin\Debug\netstandard2.1\Entity.pdb
+D:\Desktop\Parcial_2_Web\datos\obj\Debug\netstandard2.1\Datos.csprojAssemblyReference.cache
+D:\Desktop\Parcial_2_Web\datos\obj\Debug\netstandard2.1\Datos.AssemblyInfoInputs.cache
+D:\Desktop\Parcial_2_Web\datos\obj\Debug\netstandard2.1\Datos.AssemblyInfo.cs
+D:\Desktop\Parcial_2_Web\datos\obj\Debug\netstandard2.1\Datos.csproj.CoreCompileInputs.cache
+D:\Desktop\Parcial_2_Web\Datos\obj\Debug\netstandard2.1\Datos.csproj.CopyComplete
+D:\Desktop\Parcial_2_Web\datos\obj\Debug\netstandard2.1\Datos.dll
+D:\Desktop\Parcial_2_Web\datos\obj\Debug\netstandard2.1\Datos.pdb
