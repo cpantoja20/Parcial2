@@ -14,6 +14,7 @@ import { EmpresaRegistroComponent } from './creditos/empresa-registro/empresa-re
 import { AppRoutingModule } from './app-routing.module';
 import { EmpresasService } from './services/empresas.service';
 import { FiltroEmpresaPipe } from './pipe/filtro-empresa.pipe';
+import { AlertmodalComponent } from './@base/alert-modal/alertmodal/alertmodal.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FiltroEmpresaPipe } from './pipe/filtro-empresa.pipe';
     FetchDataComponent,
     EmpresaConsultaComponent,
     EmpresaRegistroComponent,
-    FiltroEmpresaPipe
+    FiltroEmpresaPipe,
+    AlertmodalComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
